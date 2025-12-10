@@ -11,7 +11,9 @@
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/your-project-id"
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/176abdb5-6238-4b29-abd0-d1d25643265f"
     },
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -20,7 +22,11 @@
     },
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "1"
+      "buildNumber": "1",
+      "bundleIdentifier": "y",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -29,10 +35,19 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "versionCode": 1
+      "versionCode": 1,
+      "package": "com.arfat_chowdhury.ReactNativeAppEASBuildOTAUpdates"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "176abdb5-6238-4b29-abd0-d1d25643265f"
+      }
+    },
+    "plugins": [
+      "expo-updates"
+    ]
   }
 }

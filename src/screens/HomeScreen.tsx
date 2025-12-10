@@ -10,6 +10,7 @@ export default function HomeScreen() {
     const version = Constants.expoConfig?.version || 'Unknown';
 
     const checkForUpdates = async () => {
+        if (__DEV__) return
         try {
             const update = await Updates.checkForUpdateAsync();
             if (update.isAvailable) {
@@ -42,10 +43,11 @@ export default function HomeScreen() {
     );
 }
 
+// change the ui 'dark'
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#000',
         alignItems: 'center',
         justifyContent: 'center',
         padding: 20,
@@ -55,10 +57,11 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginBottom: 10,
         textAlign: 'center',
+        color: '#fff',
     },
     version: {
         fontSize: 16,
-        color: '#666',
+        color: '#fff',
         marginBottom: 30,
     },
     button: {

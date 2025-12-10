@@ -1,0 +1,20 @@
+Command: eas build -p ios --profile preview
+
+Output:
+√ What would you like your iOS bundle identifier to be? ... y                                                                                     
+√ iOS app only uses standard/exempt encryption? Learn more: https://developer.apple.com/documentation/Security/complying-with-encryption-export-regulations ... yes
+No remote versions are configured for this project, buildNumber will be initialized based on the value from the local project.
+✔ Initialized buildNumber with 1.                                      
+                                                             
+ios.buildNumber field in app config is ignored when version source is set to remote, but this value will still be in the manifest available via expo-constants. It's recommended to remove this value from app config.  
+✔ Using remote iOS credentials (Expo server)
+
+If you provide your Apple account credentials we will be able to generate all necessary build credentials and fully validate them.
+This is optional, but without Apple account access you will need to provide all the missing values manually and we can only run minimal validation on them.       
+√ Do you want to log in to your Apple account? ... yes
+
+› Log in to your Apple Developer account to continue  
+? Apple ID: »
+» Please Enter A Valid Value
+
+× Apple ID: ...

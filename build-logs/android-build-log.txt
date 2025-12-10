@@ -1,0 +1,68 @@
+Creating new worker instance
+AMD, 4 vCPUs, 16 GB RAM
+
+Using image "ubuntu-24.04-jdk-17-ndk-r27b" based on "ubuntu-2404-noble-amd64-v20250805"
+
+Installed software:
+- NDK 27.1.12297006
+- Node.js 20.19.4
+- Bun 1.2.20
+- Yarn 1.22.22
+- pnpm 10.14.0
+- npm 10.9.3
+- Java 17
+- node-gyp 11.3.0
+- Maestro 2.0.2
+
+Project environment variables:
+  EAS_USE_CACHE=1
+  EAS_SAVE_CACHE=0
+  __API_SERVER_URL=https://api.expo.dev/
+
+Environment secrets:
+  EXPO_TOKEN=********
+
+EAS Build environment variables:
+  SHELL=/bin/sh
+  NVM_INC=/home/expo/.nvm/versions/node/v20.19.4/include/node
+  JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+  MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+  PWD=/usr/local/eas-build-worker
+  LOGNAME=expo
+  SYSTEMD_EXEC_PID=1089
+  HOME=/home/expo
+  LANG=en_US.UTF-8
+  MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/eas-build-worker.service/memory.pressure
+  INVOCATION_ID=7dd17d66d4c44642b6d60b8b546484cf
+  ANDROID_NDK_HOME=/home/expo/Android/Sdk/ndk/27.1.12297006
+  NVM_DIR=/home/expo/.nvm
+  ANDROID_HOME=/home/expo/Android/Sdk
+  USER=expo
+  SHLVL=0
+  ANDROID_SDK_ROOT=/home/expo/Android/Sdk
+  JOURNAL_STREAM=9:9490
+  PATH=/home/expo/workingdir/bin:/home/expo/.nvm/versions/node/v20.19.4/bin:/opt/bundletool:/home/expo/Android/Sdk/build-tools/29.0.3:/home/expo/Android/Sdk/build-tools/35.0.0:/home/expo/Android/Sdk/ndk/27.1.12297006:/home/expo/Android/Sdk/cmdline-tools/tools/bin:/home/expo/Android/Sdk/tools:/home/expo/Android/Sdk/tools/bin:/home/expo/Android/Sdk/platform-tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/home/expo/.bun/bin:/home/expo/.maestro/bin
+  LOGGER_LEVEL=info
+  NVM_BIN=/home/expo/.nvm/versions/node/v20.19.4/bin
+  EAS_BUILD_WORKER_DIR=/home/expo/eas-build-worker
+  _=/home/expo/.nvm/versions/node/v20.19.4/bin/node
+  CI=1
+  MAESTRO_DRIVER_STARTUP_TIMEOUT=120000
+  MAESTRO_CLI_NO_ANALYTICS=1
+  EAS_BUILD=true
+  EAS_BUILD_RUNNER=eas-build
+  EAS_BUILD_PLATFORM=android
+  NVM_NODEJS_ORG_MIRROR=http://nodejs.production.caches.eas-build.internal
+  EAS_BUILD_PROFILE=preview
+  EAS_BUILD_GIT_COMMIT_HASH=422a2c0613dcda6b28253b602d09a141fb09bdde
+  EAS_BUILD_ID=deebd6c4-05d4-4329-8d84-6404495e12cf
+  EAS_BUILD_WORKINGDIR=/home/expo/workingdir/build
+  EAS_BUILD_PROJECT_ID=176abdb5-6238-4b29-abd0-d1d25643265f
+  ANDROID_CCACHE=/usr/bin/ccache
+  EAS_BUILD_MAVEN_CACHE_URL=http://maven.production.caches.eas-build.internal
+  GRADLE_OPTS=-Dorg.gradle.jvmargs="-XX:MaxMetaspaceSize=1g -Xmx4g -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8" -Dorg.gradle.parallel=true -Dorg.gradle.daemon=false
+  EAS_BUILD_ANDROID_VERSION_CODE=1
+  EAS_BUILD_USERNAME=arfat_chowdhury
+  __EAS_BUILD_ENVS_DIR=/home/expo/workingdir/env
+
+Builder is ready, starting build

@@ -43,11 +43,11 @@ export default function HomeScreen() {
     );
 }
 
-// change the ui 'dark'
+// change the ui 'darkish'
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#1e1e1e',
         alignItems: 'center',
         justifyContent: 'center',
         padding: 20,
@@ -57,11 +57,11 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginBottom: 10,
         textAlign: 'center',
-        color: '#000',
+        color: '#fff',
     },
     version: {
         fontSize: 16,
-        color: '#000',
+        color: '#fff',
         marginBottom: 30,
     },
     button: {

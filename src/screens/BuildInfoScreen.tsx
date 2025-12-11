@@ -39,7 +39,7 @@ const InfoItem = ({ label, value }: { label: string; value: string | undefined }
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#f5f5f5',
+        backgroundColor: '#1e1e1e',
         padding: 20,
     },
     header: {

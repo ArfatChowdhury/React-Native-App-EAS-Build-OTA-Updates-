@@ -22,4 +22,8 @@ Over-The-Air (OTA) updates allow developers to push updates to their app's JavaS
 The `runtimeVersion` ensures compatibility between the native code (the "shell" of the app) and the JavaScript bundle (the logic/UI). If the native code changes (e.g., adding a new native library), the old JS bundle might crash it. `runtimeVersion` prevents incompatible JS updates from being downloaded by the app.
 
 ## 6. Screenshots of OTA update working
-![OTA Update Success](ota-update.jpg)
+### Before Update
+![Before OTA Update](Before-ota-update.jpg)
+
+### After Update
+![After OTA Update](after-ota-update.jpg)
